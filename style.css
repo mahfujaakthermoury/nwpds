@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: 'Manrope', sans-serif;
+}
+div{
+    box-sizing: border-box;
+}
+.area{
+    margin: 0px 100px;
+}
+.shape{
+    background-color: rgb(12, 180, 144);
+    height: 5px;
+    width: 25px;
+}
+.row{
+    overflow: hidden;
+}
+#manubar img{
+    max-width: 10%;
+}
+/* navbar start */
+nav .btn {
+	padding: 8px 38px;
+    font-weight: bold;
+}
+#manubar{
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+#manubar img {
+	margin-bottom: 10px;
+	margin-left: 80px;
+}
+#manu{
+    margin-right: 100px; 
+}
+.pricing{
+    margin-top: 80px;
+    height: 300px;
+    background-image: url("image/img1.jpeg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+}
+.category-bottom{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow:0px 5px 2px rgb(194, 185, 185) ;  
+    margin-bottom: 50px;
+
+}
+.category-top{
+    text-align: center;
+    padding: 60px 5px;
+    height: 200px;
+    color: white;
+    background-image: url("image/Studio.jpeg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+}
+.purchase-button{
+    background-color: black;
+    color: white;
+    padding:5px 7px;
+    margin-bottom: 10px;
+}
+.purchase-button:hover{
+    background-color: rgb(12, 180, 144);
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(12, 180, 144);
+}
+.footer{
+    background-color: black;
+}
+.footer-logo img{
+    height: 100px;
+    width: 200px;
+}
+.footer-nav{
+    padding-left: 10px;
+}
